@@ -13,7 +13,7 @@ Ensure you have the required source control and build tools installed. Refer to 
 Initialize the repository using Google's Android 16 (Kernel 6.12) manifest:
 
 ```bash
-repo init -u https://android.googlesource.com/kernel/manifest.git -b common-android16-6.12 --depth=1
+repo init -u https://android.googlesource.com/kernel/manifest.git -b common-android16-6.12-lts --depth=1
 ```
 
 > **Note:** You can also use `-b common-android16-6.12-lts` if preferred.
