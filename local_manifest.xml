@@ -13,5 +13,9 @@
     <linkfile src="kernel/kernel_device_modules-6.12/build.config.mtk_kernel_device_modules" dest="kernel/build.config" />
     <linkfile src="kernel/kernel_device_modules-6.12" dest="kernel_device_modules-6.12" />
     <linkfile src="kernel/build/bazel_mgk_rules" dest="build/bazel_mgk_rules" />
+    <linkfile src="kernel/build/bazel_common_rules" dest="build/bazel_common_rules" />
+    <linkfile src="kernel/build/bazel_mgk_rules/bzlmod/mgk.MODULE.bazel" dest="MODULE.bazel" />
+    <linkfile src="kernel/oplus" dest="oplus" />
+    <linkfile src="kernel/oplus/bazel" dest="build/kernel/oplus" />
   </project>
 </manifest>
